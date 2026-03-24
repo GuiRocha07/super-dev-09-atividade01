@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="assets/css/login.css">
 </head>
 <body>
-    <form action="index.html" method="get">
-        <div>
-            <label for="campo-email">E-mail</label>
-            <input type="email" id="campo-email" name="email" required placeholder="meu-email@gmail.com>
-        </div>
-        <div>
-            <label for="campo-senha">Senha</label>
-            <input type="password" id="campo-senha" name="senha" required>
-        </div>
-        <button type="submit">Login</button>
-    </form>
-        <a href="redefinir.html">
-        <button type="submit">Esqueci a senha</button>
-        </a>
+    
+    <h2>Login</h2>
+            <form action="index.html">
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <div>
+                    <button class="botao-estilo">Entrar</button>
+                </div>
+            </form>
+            <div class="esqueci">
+                <a href="redefinir.html">Esqueci minha senha</a>
+            </div>
 </body>
-</html>

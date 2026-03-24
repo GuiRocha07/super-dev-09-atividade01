@@ -1,0 +1,109 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 250px;
+}
+
+form {
+  width: 400px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-top-color: black;
+
+  border-right-style: solid;
+  border-right-width: 4px;
+  border-right-color: black;
+
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: black;
+
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-left-color: black;
+
+  border-radius: 15px;
+}
+.esqueci{
+    margin-top: 15px;
+}
+
+h2{
+  background-color: black;
+  color: #ffffff;
+  width: 100px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-top-color: black;
+
+  border-right-style: solid;
+  border-right-width: 4px;
+  border-right-color: black;
+
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: black;
+
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-left-color: black;
+
+  border-radius: 10px;
+}
+
+.campo {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 5px;
+
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+}
+
+.botao-estilo {
+    font-family: monospace;
+    font-size: 20px;
+    width: 200px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.botao-estilo {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+
+.link {
+  margin-top: 15px;
+}
