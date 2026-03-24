@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background-color: aquamarine;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;      
+}
+
+
+.topo {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.home {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.Tabela {
+  text-align: center;
+  background-color: whitesmoke;
+
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+.Tabela th,
+.Tabela td {
+  text-align: center;
+  padding: 5px 10px;
+}
