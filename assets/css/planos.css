@@ -1,0 +1,45 @@
+.container {
+    width: 800px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.topo {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    border-bottom: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+
+.box:last-child {
+    border-right: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
