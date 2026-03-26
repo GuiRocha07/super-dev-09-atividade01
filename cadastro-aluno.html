@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/cadastro-aluno.css">
+    <title>Cadastro Aluno</title>
+</head>
+<body>
+
+     <table class="menu">
+        <tr>
+            <td>
+                <a href="alunos.html">Alunos</a>
+            </td>
+            <td>
+                <a href="cadastro-aluno.html">Cadastro de Aluno</a>
+            </td>
+            <td>
+                <a href="treinos.html">Treinos</a>
+            </td>
+            <td>
+                <a href="cadastro-treino.html">Cadastro de Treino</a>
+            </td>
+            <td>
+                <a href="planos.html">Planos</a>
+            </td>
+            <td>
+                <a href="cadastro-plano.html">Cadastro de Plano</a>
+            </td>
+        </tr>
+    </table>
+    
+    <form>
+        <div>
+        <label for="name" class="cadastro" class="nome">Nome Completo</label>
+        <input type="text" name="nome" placeholder="Carlos Erick Thiago da Paz" required>
+        </div>
+
+        <div>
+        <label for="cadastro-pessoa-fisica" class="cadastro">CPF</label>
+        <input type="tel" name="cadastro-pessoa-fisica" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{2}" placeholder="476-209-175-86"required>
+        <!-- o tel foi usado, pois o number não suporta pattern -->
+        </div>
+
+        <div>
+        <label for="data-nascimento" class="cadastro">Data de Nascimento</label>
+        <input type="date" name="data-nascimento" max="2026-03-27" required>
+        <!-- O HTML ñ é capaz de calcular a data atual, ele ñ inteligente por si só, para automatizar isso é necessárrio JS -->
+        </div>
+
+        <div>
+        <label for="telefone" class="cadastro">Telefone</label>
+        <input type="tel" name="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="47-92794-2054" required>
+        </div>
+
+        <div>
+        <label for="endereco-eletronico" class="cadastro">Email</label>
+        <input type="email" name="endereco-eletronico" placeholder="carloserickdapaz@gmail.com." required>
+        </div>
+
+        <div>
+        <label for="peso" class="cadastro">Peso</label>
+        <input type="number" name="peso" placeholder="62,7 kg" required>
+        </div>
+
+        <div>
+        <label for="altura" class="cadastro">Altura</label>
+        <input type="number" name="altura" placeholder="1,81 m" required>
+        </div>
+
+        <div>
+        <h4>Sexo<h4>
+        <div class="cadastro">
+        <input type="radio" name="sexo" value="Masculino">
+        <label for="sexo">Masculino</label>
+        </div>
+        <div class="cadastro">
+        <input type="radio" name="sexo" value="Feminino">
+        <label for="sexo">Feminino</label>
+        </div>
+
+        <div></div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+
+    </form>
+
+</body>
+</html>
