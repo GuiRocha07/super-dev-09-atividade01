@@ -1,40 +1,68 @@
 body {
-  font-family: Arial;
-  background-color: aquamarine;
+    font-family: Arial;
+    background-color: aquamarine;
 
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  flex-direction: column; 
-  align-items: center;      
+    display: flex;
+    flex-direction: column; 
+    align-items: center;      
 }
 
 
 .topo {
-  width: 100%;
-  text-align: center;
-  padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;               
+    padding: 10px;
+}
+.topo a:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+.topo a {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: black;
+    text-decoration: none;
+    color: aquamarine;
 }
 
 .home {
-  font-size: 22px;
-  font-weight: bold;
-  text-decoration: none;
+    font-size: 25px;
+}
+
+.cadastro {
+    font-size: 25px;
+    background-color: black;
+    text-decoration: none;
+    color: aquamarine; 
+}
+
+.tabela {
+    background-color: whitesmoke;
+    display:contents;
 }
 
 
-.Tabela {
-  text-align: center;
-  background-color: whitesmoke;
+.tabela th,
+.tabela td {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
 
-  padding: 20px;
-  margin-top: 10px;
+.imagens img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
 }
 
 
-.Tabela th,
-.Tabela td {
-  text-align: center;
-  padding: 5px 10px;
-}
+
+
+
