@@ -7,31 +7,40 @@
     <link rel="stylesheet" href="assets/css/cadastro-treino.css">
 </head>
 <body>
-
+    <div>
     <h1>Cadastro de Treino</h1>
-
-    <form>
-
-        <label>Nome do treino:</label><br>
-        <input type="text" name="nome"><br><br>
-
-        <label>Data:</label><br>
-        <input type="date" name="data"><br><br>
-
-        <label>Intensidade:</label><br>
-        <input type="radio" name="intensidade" value="leve"> Leve<br>
-        <input type="radio" name="intensidade" value="medio"> Médio<br>
-        <input type="radio" name="intensidade" value="pesado"> Pesado<br><br>
-
-        <label>Observações:</label><br>
-        <textarea name="obs" rows="4" cols="30"></textarea><br><br>
-
-        <input type="submit" value="Cadastrar">
-
-    </form>
-
-    <br>
-    <a href="treinos.html">Voltar</a>
-
+    </div>
+    <div>
+        <form action="treinos.html">
+            <div class="aluno">
+                <label>Nome do aluno:</label>
+                <input type="text" name="nome" required>
+            </div>
+            <div class="nome">
+                <label>Nome do treino:</label>
+                <input type="text" name="nome" required>
+            </div>
+            <div class="data">
+                <label>Data:</label>
+                <input type="date" name="data" required></input>
+            </div>
+            <div class="intensidade">
+                <label>Intensidade:</label>
+                <input type="radio" name="intensidade" value="leve" required>Leve
+                <input type="radio" name="intensidade" value="medio">Médio
+                <input type="radio" name="intensidade" value="pesado">Pesado 
+            </div>
+            <div class="observacao" required>
+                <label>Observações:</label>
+                <textarea name="obs" rows="4" cols="30" required></textarea>
+            </div>
+            <div class="submit">
+            <input type="submit" value="Cadastrar" class="cadastro">
+            </div>
+        </form>
+    </div>
+    <div class="voltar">   
+    <a class="voltar" href="index.html">Voltar</a>
+    </div>
 </body>
 </html>

@@ -1,0 +1,75 @@
+body {
+  font-family: Trebuchet MS, sans serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 200px;
+  background-color: #7c9082;
+}
+
+form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-top-color: black;
+  border-right-style: solid;
+  border-right-width: 4px;
+  border-right-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: black;
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-left-color: black;
+  border-radius: 15px;
+  background-color: white;
+}
+.esqueci{
+    margin-top: 15px;
+}
+
+.redefinir {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 5px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+}
+
+.link:hover {
+    transform: scale(1.15);
+}
+
+.link {
+    margin-top: 40px;
+}
+.link-1 {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
