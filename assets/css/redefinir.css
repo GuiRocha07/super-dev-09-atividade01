@@ -21,12 +21,7 @@ body {
 }
 
 .redefinir {
-<<<<<<< HEAD
-    background-color: black;
-    color: #FFFAFF;
-=======
     color: black;
->>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
     font-size: 15px;
     text-align: center;
 }
@@ -58,13 +53,8 @@ input {
 .link-1 {
     text-decoration: none;
     background: black;
-<<<<<<< HEAD
-    color: #FFFAFF;
-    padding: 10px;
-=======
     color: white;
     padding: 8px;
->>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
     border-radius: 10px;
     font-size: 20px;
 }

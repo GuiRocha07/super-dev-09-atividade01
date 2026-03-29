@@ -1,17 +1,10 @@
 body {
     font-family: Trebuchet MS, sans serif;
-<<<<<<< HEAD
-    font-size: 20px;
-    text-align: center;
-    margin-top: 250px;
-    background-color: #7c9082;
-=======
     background-color: #7c9082;      
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
->>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
 }
 
 .tabela {
@@ -30,32 +23,19 @@ body {
 }
 
 .login {
-<<<<<<< HEAD
-    background-color: black;
-    color: #FFFAFF;
-=======
     color: black;
->>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
     font-size: 15px;
     border-radius: 15px;
     padding: 5px;
     display: inline-block;
 }
 
-<<<<<<< HEAD
-.menu {
-    background-color: #FFFAFF;
-}
-
-.campo {
-=======
 .campo1 {
     margin-bottom: 15px;
 
 }
 
 .campo2 {
->>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
     margin-bottom: 15px;
     text-align: left;
     padding: 10px;
@@ -65,17 +45,8 @@ body {
 .botao-estilo {
     font-family: Trebuchet MS, sans serif;
     font-size: 20px;
-<<<<<<< HEAD
-    width: 200px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    color: #FFFAFF;
-=======
     padding: 3px 45px;
     color: #ffffff;
->>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
     border-radius: 5px;
     cursor: pointer;
     background-color: black;

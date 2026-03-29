@@ -75,32 +75,10 @@
     flex-direction: column;
 }
 
-<<<<<<< HEAD
-.cadastro {
-    background: black;
-    color: #FFFAFF;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-.cadastro:hover {
-    transform: scale(1.15);
-    color: #7058C6;
-}
-
-.submit {
-    text-align: center;                
-    padding: 10px;
-}
-
-.voltar {
-=======
 .add a {
     display: inline-block;
     background-color: black;
     color: white;
->>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
     text-decoration: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -111,4 +89,3 @@
 .add a:hover {
     transform: scale(1.05);
 }
-
