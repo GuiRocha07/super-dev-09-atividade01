@@ -1,13 +1,24 @@
 body {
     font-family: Trebuchet MS, sans serif;
-    background-color: #7c9082;
+    background-color: #7c9082;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.treino {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.tabela {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 15px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-}
-h1 {
-    font-size: 35px;
 }
 
 .aluno {
