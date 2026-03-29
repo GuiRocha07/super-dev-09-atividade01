@@ -3,6 +3,7 @@ body {
     font-size: 20px;
     text-align: center;
     margin-top: 250px;
+    background-color: #7c9082;
 }
 
 form {
@@ -34,11 +35,15 @@ form {
 
 .login {
     background-color: black;
-    color: white;
+    color: #FFFAFF;
     font-size: 15px;
     border-radius: 15px;
     padding: 0px 60px;
     display: inline-block;
+}
+
+.menu {
+    background-color: #FFFAFF;
 }
 
 .campo {
@@ -64,7 +69,7 @@ input {
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
-    color: #ffffff;
+    color: #FFFAFF;
     border-radius: 5px;
 }
 

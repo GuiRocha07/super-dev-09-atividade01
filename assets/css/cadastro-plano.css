@@ -4,7 +4,7 @@ body{
 
 .tabela {
     font-family: Arial;
-    background-color:white; 
+    background-color:#FFFAFF; 
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ body{
 }
 
 .menu a:hover {
-    color:white;
+    color:#FFFAFF;
     transform:scale(1.05);
 }
 .menu a {
@@ -61,6 +61,6 @@ input, select {
 }
 
 .btn:hover {
-    color: white;
+    color: #FFFAFF;
     transform: scale(1.05);
 }

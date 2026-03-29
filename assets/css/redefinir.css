@@ -36,7 +36,7 @@ form {
 
 .redefinir {
     background-color: black;
-    color: white;
+    color: #FFFAFF;
     font-size: 15px;
     border-radius: 15px;
     padding: 0px 10px;
@@ -68,7 +68,7 @@ input {
 .link-1 {
     text-decoration: none;
     background: black;
-    color: white;
+    color: #FFFAFF;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
