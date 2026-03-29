@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="assets/css/cadastro-treino.css">
 </head>
 <body>
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="alunos.html">Alunos</a>
+        <a href="cadastro-aluno.html">Cadastro de Aluno</a>
+        <a href="treinos.html">Treinos</a>
+        <a href="cadastro-treino.html">Cadastro de Treino</a>
+        <a href="planos.html">Planos</a>
+    </nav>
     <div>
-    <h1>Cadastro de Treino</h1>
-    </div>
-    <div>
-        <form action="treinos.html">
+        <form action="treinos.html" class="tabela">
+            <div class="treino">
+                <h1>Cadastro de Treino</h1>
+            </div>
             <div class="aluno">
                 <label>Nome do aluno:</label>
                 <input type="text" name="nome" required>
@@ -34,13 +42,10 @@
                 <label>Observações:</label>
                 <textarea name="obs" rows="4" cols="30" required></textarea>
             </div>
-            <div class="submit">
-            <input type="submit" value="Cadastrar" class="cadastro">
-            </div>
+            <div class="add">
+            <a href="treinos.html">Adcionar Treino</a>
+          </div>
         </form>
-    </div>
-    <div class="voltar">   
-    <a class="voltar" href="index.html">Voltar</a>
     </div>
 </body>
 </html>

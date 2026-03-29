@@ -1,7 +1,19 @@
+<<<<<<< HEAD
 body{
     background-color: #7c9082;
     font-family: Trebuchet MS, sans-serif;
 }
+=======
+body {
+    font-family: Trebuchet MS, sans serif;
+    background-color: #7c9082;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+} 
+
+>>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
 
 .tabela {
     font-family: Trebuchet MS, sans-serif;
@@ -21,9 +33,8 @@ body{
 }
 
 .menu {
-    padding: 10px;
-    text-align: center;
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     gap: 20px;
 }
@@ -38,11 +49,29 @@ body{
     background-color: black;
     text-decoration: none;
     color:#FFFAFF;
+=======
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+>>>>>>> 340dc0afc3e10126f5fd8086cd4d3144133e40aa
 
+.menu a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.menu a:last-child {
+    border-right: none;
 }
 
 .formulario {
-    padding: 20px;
+    padding: 5px;
 }
 
 
