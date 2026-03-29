@@ -29,10 +29,10 @@
     border-radius: 20px;
     background-color: black;
     text-decoration: none;
-    color:#7c9082;
+    color:#FFFAFF;
 }
 .menu a:hover {
-    color:#FFFAFF;
+    color:#7058C6;
     transform:scale(1.05);
 }
 
