@@ -58,8 +58,9 @@ input {
     border-top-color: black;
 }
 
-.link:hover {
+.link-1:hover {
     transform: scale(1.15);
+    color: #7058C6;
 }
 
 .link {

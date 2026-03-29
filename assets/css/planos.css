@@ -1,9 +1,10 @@
  body {
     background-color:#7c9082;
+    font-family: Trebuchet MS, sans-serif;
 } 
 
 .tabela {
-    font-family: arial;
+    font-family: Trebuchet MS, sans-serif;
     background-color:#FFFAFF; 
     width: 800px;
     margin: auto;
