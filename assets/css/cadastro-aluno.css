@@ -38,9 +38,8 @@ h1 {
 }
 
 .botoes {
-    padding-bottom: 20px;
+    padding-bottom: 20
 }
-
 
 .botao {
     border: 0px;
@@ -54,6 +53,7 @@ h1 {
 .botao:hover {
     transform: scale(1.10);
     cursor: pointer;
+    color: #7058C6;
 }
 
 /* menu */

@@ -73,14 +73,29 @@
         <input type="number" class="campo-resposta" name="altura" placeholder="1,81 m" required>
         </div>
 
-        <h4>Sexo<h4>
-        <div class="sexos">
-            <div class="">
-                <input type="radio" name="sexo" value="Masculino">
+        <div>
+        <h4 class="sexos">Sexo<h4>
+            <input type="radio" name="sexo" value="Masculino">
                 <label for="sexo">Masculino</label>
-            <div class="">
-                <input type="radio" name="sexo" value="Feminino">
+            <input type="radio" name="sexo" value="Feminino">
                 <label for="sexo">Feminino</label>
+        </div>
+
+        <div>
+            <label for="local" class="cadastro">Localiazação da Unidadade</label>
+                <select name="local" required>
+                    <option disabled selected ></option>
+                    <option>Unidade Garcia</option>
+                    <option>Unidade Velha</option> 
+                    <option>Unidade Nações</option> 
+                    <option>Unidade Carijós</option> 
+                </select>
+        </div>
+
+        <div>
+            <label for="observacoes" class="cadastro ">Observações</label>
+            <textarea rows="5" cols="25"></textarea>
+
         </div>
 
         <div class="botoes">
