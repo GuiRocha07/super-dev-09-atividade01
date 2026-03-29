@@ -1,11 +1,12 @@
-body{
+body {
     font-family: Trebuchet MS, sans serif;
     background-color: #7c9082;      
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-}
+    justify-content: flex-start; 
+} 
+
 
 .tabela {
     font-family: Arial;
@@ -25,28 +26,28 @@ body{
 }
 
 .menu {
-    padding: 10px;
-    text-align: center;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.menu a:hover {
-    color:white;
-    transform:scale(1.05);
-}
-.menu a {
-    padding:10px 15px;
-    border-radius: 20px;
+    width: 100%;
     background-color: black;
-    text-decoration: none;
-    color:aquamarine;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 
+.menu a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.menu a:last-child {
+    border-right: none;
 }
 
 .formulario {
-    padding: 20px;
+    padding: 5px;
 }
 
 

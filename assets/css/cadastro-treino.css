@@ -1,11 +1,33 @@
-body {
+ body {
     font-family: Trebuchet MS, sans serif;
     background-color: #7c9082;      
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    justify-content: flex-start; 
+} 
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
+
+.menu a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.menu a:last-child {
+    border-right: none;
+}
+
 .treino {
     font-size: 15px;
     padding: 20px;
@@ -53,28 +75,18 @@ body {
     flex-direction: column;
 }
 
-.cadastro {
-    background: black;
+.add a {
+    display: inline-block;
+    background-color: black;
     color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-.cadastro:hover {
-    transform: scale(1.15);
-}
-
-.submit {
-    text-align: center;                
-    padding: 10px;
-}
-
-.voltar {
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: 0.5s ease;
 }
 
-.voltar:hover {
-    transform: scale(1.15);
+.add a:hover {
+    transform: scale(1.05);
 }
+

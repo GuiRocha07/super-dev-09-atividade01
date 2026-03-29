@@ -1,19 +1,52 @@
-body {
-    background-color: #7C9082;
-    font-family: Trebuchet MS, sans-serif;
+ body {
+    font-family: Trebuchet MS, sans serif;
+    background-color: #7c9082;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+} 
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.menu a {
+    flex: 1;
     text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.menu a:last-child {
+    border-right: none;
 }
 
 .tabela {
-    margin: 0 auto; /* centraliza */
-    border: 3px solid #3A445D;
-
     background-color: white;
     border: 4px solid black;
     border-radius: 15px;
     padding: 20px;
-    flex-direction: column; 
-    align-items: center;
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.tabela tr:hover {
+    background-color: bisque;
 }
 
 .home {
@@ -31,4 +64,26 @@ body {
     background-color: black;
     color: white;
     text-decoration: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 2px;
+    display: inline-block;
+}
+
+.editar {
+    background-color: #007bff;
+}
+
+.deletar {
+    background-color: #dc3545;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }

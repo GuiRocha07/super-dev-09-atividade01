@@ -1,75 +1,59 @@
 body {
     font-family: Trebuchet MS, sans serif;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 250px;
+    background-color: #7c9082;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-form {
+.tabela {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-top-style: solid;
-    border-top-width: 4px;
-    border-top-color: black;
-    border-right-style: solid;
-    border-right-width: 4px;
-    border-right-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 4px;
-    border-bottom-color: black;
-    border-left-style: solid;
-    border-left-width: 4px;
-    border-left-color: black;
+    background-color: white;
+    border: 4px solid black;
     border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 .esqueci{
     margin-top: 15px;
+    padding: 10px;
 }
 
 .login {
-    background-color: black;
-    color: white;
+    color: black;
     font-size: 15px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
 }
 
-.campo {
+.campo1 {
+    margin-bottom: 15px;
+
+}
+
+.campo2 {
     margin-bottom: 15px;
     text-align: left;
+    padding: 10px;
 }
 
-input {
-    width: 100%;
-    padding-top: 8px;
-    margin-top: 5px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: black;
-}
 
 .botao-estilo {
-    font-family: monospace;
+    font-family: Trebuchet MS, sans serif;
     font-size: 20px;
-    width: 200px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
+    padding: 3px 45px;
     color: #ffffff;
     border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
 }
 
-.botao-estilo {
-    cursor: pointer;
-    background-color: rgb(0, 0, 0);
+.botao-estilo:hover {
+    transform: scale(1.15);
 }
 
 .link {
